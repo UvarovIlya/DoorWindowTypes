@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DoorWindowTypes</Text>
+    <Description>Some description for DoorWindowTypes</Description>
+    <Assembly>DoorWindowTypes.dll</Assembly>
+    <FullClassName>DoorWindowTypes.Command</FullClassName>
+    <ClientId>ef499532-71c3-43b4-8f52-784dea0bc35a</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application DoorWindowTypes</Name>
+    <Assembly>DoorWindowTypes.dll</Assembly>
+    <FullClassName>DoorWindowTypes.App</FullClassName>
+    <ClientId>ed10d829-3f80-4587-b59d-8eb2758392f3</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
